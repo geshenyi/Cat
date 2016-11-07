@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <hello></hello>
+    <global-header></global-header>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import GlobalHeader from './components/GlobalHeader'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    GlobalHeader
   }
 }
 </script>
@@ -24,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body{
+  margin: 0px;
 }
 </style>

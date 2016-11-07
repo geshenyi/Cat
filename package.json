@@ -13,7 +13,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "vue": "^2.0.5"
+    "purecss": "^0.6.0",
+    "vue": "^2.0.5",
+    "vue-strap": "^1.1.29"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
