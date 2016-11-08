@@ -38,7 +38,7 @@
   #menu-toggle-button-wrapper{
     text-align: right;
     display: block!important;
-    padding: 10px 10px 10px 0;
+    padding: 10px 10px 0 0;
     cursor: pointer;
   }
 
@@ -76,6 +76,7 @@
   padding: 15px 0 15px 0;
   color: white;
   cursor: pointer;
+  background-color: #41b883;
 }
 
 .header-menu:hover{
@@ -107,7 +108,7 @@ export default{
     handleGlobalHeaderOnWindowResize(event){
       console.log(document.documentElement.clientWidth);
       console.log(document.documentElement.clientHeight);
-      if(isCompactMode(document.documentElement.clientWidth)){
+      if(this.isCompactMode(document.documentElement.clientWidth)){
         this.menuCollapsed = false;
         this.compactMode = true;
       }else{
