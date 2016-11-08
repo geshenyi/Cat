@@ -29,4 +29,8 @@ export default {
 body{
   margin: 0px;
 }
+
+.full-height{
+  height: 100%;
+}
 </style>
