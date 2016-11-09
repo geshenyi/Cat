@@ -20,7 +20,7 @@
 <style>
 .section-label{
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #8e8888;
 }
 .feature-products-section{

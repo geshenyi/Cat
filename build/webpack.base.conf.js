@@ -59,7 +59,13 @@ module.exports = {
           presets: ['es2015']
         },
         include: projectRoot,
-        exclude: /node_modules(?!\/vue-awesome)/
+        exclude(file){
+          if(file.indexOf('node_modules/vue-product-carousel') != -1 || file.indexOf('node_modules/slick-carousel') != -1){
+            console.log(file);
+            return false;
+          }
+          return file.indexOf('node_modules') != -1;
+        }
       },
       {
         test: /\.json$/,

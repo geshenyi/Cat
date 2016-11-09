@@ -67,7 +67,7 @@
     text-align: left;
     padding: 10px 0 10px 10px;
     font-family: 'Lobster', cursive;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: white;
 }
 
