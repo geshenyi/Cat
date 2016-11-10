@@ -77,15 +77,15 @@
         <div class="pure-u-1-3"></div>
       </div>
     </div>
-    <div class="pure-u-1">
+    <div class="pure-u-1 full-width foot-info">
       <div class="pure-g">
-        <div class="pure-1-3">
+        <div class="pure-u-1-3">
           @2008-2016 Ancient Tree
         </div>
-        <div class="pure-1-3">
+        <div class="pure-u-1-3">
           Ancient Tree
         </div>
-        <div class="pure-1-3">
+        <div class="pure-u-1-3">
           Have Questions? +86 88888888
         </div>
       </div>
@@ -96,7 +96,7 @@
 <style>
 .footer-wrapper{
  background-color: #f6f6f6;
- padding: 80px 100px 100px 100px;
+ padding: 80px 100px 30px 100px;
 }
 
 .footer-list{
@@ -140,6 +140,10 @@
   text-align: left;
 }
 
+.foot-info{
+  margin-top: 50px;
+  border-top: 1px solid lightgrey;
+}
 
 
 </style>
