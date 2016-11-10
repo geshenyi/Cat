@@ -9,6 +9,7 @@
     <introduction></introduction>
     <carousel-section></carousel-section>
     <welcome-section></welcome-section>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -19,11 +20,12 @@ import PhotoGallery from './components/PhotoGallery'
 import Introduction from './components/Introduction'
 import CarouselSection from './components/CarouselSection'
 import WelcomeSection from './components/WelcomeSection'
+import Footer from './components/Footer'
 
 export default {
   name: 'app',
   components: {
-    GlobalHeader, FeatureProducts,PhotoGallery,Introduction, CarouselSection, WelcomeSection
+    GlobalHeader, FeatureProducts,PhotoGallery,Introduction, CarouselSection, WelcomeSection, Footer
   }
 }
 

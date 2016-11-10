@@ -1,5 +1,5 @@
 <template>
-  <div class="pure-g full-width feature-products-section" id="">
+  <div class="pure-g full-width feature-products-section">
     <div class="pure-u-1">
       <div class="section-label">
         FEATURE PRODUCTS
