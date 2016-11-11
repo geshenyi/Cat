@@ -5,7 +5,7 @@
         Ancient Tree Introduction
       </div>
     </div>
-    <div class="pure-u-1-3" v-for="intro in intros">
+    <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3" v-for="intro in intros">
       <div class="pure-g intro-wrapper">
         <div class="pure-u-1">
           <img v-bind:src="intro.imgUrl" class="full-width intro-image"/>
